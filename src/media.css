@@ -12,6 +12,9 @@
         padding: 0 5rem;
         gap: 1rem;
     }
+    #core {
+        margin-top: 4rem;
+    }
     #core .card{
         width: auto;
     }

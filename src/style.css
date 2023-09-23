@@ -149,3 +149,6 @@ h4 {
 #core .icons .icon:hover{
     filter: drop-shadow(0 0 10px #8a8080);
 }
+#core .ex .details p{
+    font-size: 1.25rem;
+}
