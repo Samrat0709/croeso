@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&family=Playfair+Display:wght@400;600;800&family=Poppins:wght@300;400;600&display=swap');
+
+/* font-family: 'Homenaje', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
+#header .img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 3rem;
+    background: transparent !important;
+}
+
+.nav-container .logo {
+    width: 15%;
+}
+
+.nav-container .logo img {
+    width: 100%;
+}
+
+.nav-container .list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%;
+    padding-right: 4rem;
+}
+
+.nav-container .list ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-container .list a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: #fff;
+}
+
+#header #dates {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 8rem;
+}
+
+#dates img {
+    width: 100%;
+}
+
+#header .dates {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+
+}
+
+#dates .dates h3,
+h4 {
+    color: #fff;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 2.5rem;
+}
+
+#core {
+    text-align: center;
+    padding: 3rem 4rem;
+
+}
+#core h2{
+    font-family:'Homenaje',sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+#core span{
+    font-size: 4rem;
+}
+#core .card-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#core .card {
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    filter: drop-shadow(5px 5px 5px #7a7777);
+    transition: ease 0.3s;
+}
+#core .card:hover{
+    scale: 1.05;
+}
+.card img {
+    width: 100%;
+}
+
+.card .details {
+    padding: 0.5rem;
+}
+
+.card .details p {
+    font-family: 'Homenaje', sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+}
+#core .card .details .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    justify-content: center;
+}
+#core .icons  a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 50%;
+}
+#core .icons .icon:hover{
+    filter: drop-shadow(0 0 10px #8a8080);
+}

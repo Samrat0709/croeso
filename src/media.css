@@ -1,0 +1,21 @@
+@media only screen and (max-width: 900px){
+    #header{
+        height: 20vh;
+    }
+    .nav-container{
+        padding: 1rem 2rem;
+    }
+    .nav-container .list{
+        display: none;
+    }
+    #header #dates{
+        padding: 0 5rem;
+        gap: 1rem;
+    }
+    #core .card{
+        width: auto;
+    }
+    #dates .dates h3, h4{
+        font-size: 1rem;
+    }
+}
