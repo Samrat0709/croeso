@@ -1,6 +1,6 @@
 @media only screen and (max-width: 900px){
     #header{
-        height: 20vh;
+        height: 22vh;
     }
     .nav-container{
         padding: 1rem 2rem;
@@ -8,17 +8,40 @@
     .nav-container .list{
         display: none;
     }
+    .nav-container .profile a{
+        font-size: 1rem;
+    }
     #header #dates{
         padding: 0 5rem;
         gap: 1rem;
     }
-    #core {
-        margin-top: 4rem;
+    #core h2{
+        font-size: 4rem;
+
+    }
+    #core span {
+        font-size: 5rem;
     }
     #core .card{
         width: auto;
     }
     #dates .dates h3, h4{
         font-size: 1rem;
+    }
+    #trailer h2{
+        font-size: 4rem;
+    }
+    #past h2{
+        font-size: 4rem;
+    }
+    .swiper-slide{
+        width: 300px;
+    }
+    #social h2{
+        font-size: 4rem;
+    }
+    #social .posts{
+        flex-direction: column;
+        gap: 2rem;
     }
 }

@@ -46,13 +46,16 @@ font-family: 'Poppins', sans-serif; */
     justify-content: flex-end;
     align-items: center;
     width: 85%;
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .nav-container .list ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     gap: 2rem;
+    margin: 0 !important;
 }
 
 .nav-container .list a {
@@ -63,11 +66,18 @@ font-family: 'Poppins', sans-serif; */
     color: #fff;
 }
 
+.nav-container .profile a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
 #header #dates {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 8rem;
+    padding: 4rem 8rem;
+
 }
 
 #dates img {
@@ -89,19 +99,50 @@ h4 {
     font-size: 2.5rem;
 }
 
+/* trailer starts here  */
+
+#trailer {
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+    background: #FF8A8A;
+}
+
+#trailer h2 {
+    color: #D9D9D9;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#trailer .video-container {
+    padding: 2rem;
+    width: 100%;
+}
+
+#trailer .video-container video {
+    width: 100%;
+}
+
 #core {
     text-align: center;
     padding: 3rem 4rem;
+    background: #BBD7FF;
 
 }
-#core h2{
-    font-family:'Homenaje',sans-serif;
+
+#core h2 {
+    font-family: 'Homenaje', sans-serif;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 500;
 }
-#core span{
+
+#core span {
     font-size: 4rem;
 }
+
 #core .card-container {
     display: flex;
     width: 100%;
@@ -118,9 +159,11 @@ h4 {
     filter: drop-shadow(5px 5px 5px #7a7777);
     transition: ease 0.3s;
 }
-#core .card:hover{
+
+#core .card:hover {
     scale: 1.05;
 }
+
 .card img {
     width: 100%;
 }
@@ -134,21 +177,104 @@ h4 {
     margin: 0;
     font-size: 1.5rem;
 }
-#core .card .details .icons{
+
+#core .card .details .icons {
     display: flex;
     flex-direction: row;
     gap: 1.2rem;
     justify-content: center;
 }
-#core .icons  a{
+
+#core .icons a {
     text-decoration: none;
     font-size: 1.5rem;
     color: black;
     border-radius: 50%;
 }
-#core .icons .icon:hover{
+
+#core .icons .icon:hover {
     filter: drop-shadow(0 0 10px #8a8080);
 }
-#core .ex .details p{
+
+#core .ex .details p {
     font-size: 1.25rem;
+}
+
+#past {
+    width: 100%;
+    background: #FF8A8A;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#past h2 {
+    color: #000;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    filter: drop-shadow(10px 10px 10px #000);
+
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+#social {
+    width: 100%;
+    padding: 4rem 2rem;
+    background: #BBD7FF;
+    text-align: center;
+}
+
+#social h2 {
+    color: #000;
+    font-family: 'Homenaje',sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#social .posts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+#social .post{
+    filter: drop-shadow(10px 10px 10px #000);
+    transition: ease 0.3s;
+}
+#social .post:hover{
+    scale: 1.05;
+}
+#social .bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#social .bottom .icons{
+    padding: 2rem 0;
+    display: flex;
+    gap: 3rem;
+}
+#social .bottom .icons a{
+    text-decoration: none;
+    color: #000;
+    font-size: 3rem;
+    filter: drop-shadow(5px 5px 5px #a89f9f);
 }
