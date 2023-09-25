@@ -226,6 +226,7 @@ h4 {
     background-position: center;
     background-size: cover;
     width: 500px;
+    height: auto;
     filter: drop-shadow(10px 10px 10px #000);
 
 }

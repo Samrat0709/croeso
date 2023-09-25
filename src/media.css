@@ -36,6 +36,7 @@
     }
     .swiper-slide{
         width: 300px;
+        height: auto;
     }
     #social h2{
         font-size: 4rem;
