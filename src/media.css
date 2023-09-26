@@ -1,6 +1,6 @@
 @media only screen and (max-width: 900px){
     #header{
-        height: 22vh;
+        height: fit-content;
     }
     .nav-container{
         padding: 1rem 2rem;
@@ -28,8 +28,11 @@
     #dates .dates h3, h4{
         font-size: 1rem;
     }
+    #trailer{
+        padding: 2rem ;
+    }
     #trailer h2{
-        font-size: 4rem;
+        font-size: 3rem;
     }
      h2{
         font-size: 4rem;
