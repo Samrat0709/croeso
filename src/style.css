@@ -108,7 +108,7 @@ h4 {
     background: #FF8A8A;
 }
 
-#trailer h2 {
+h2 {
     color: #D9D9D9;
     font-family: 'Homenaje', sans-serif;
     font-size: 96px;
@@ -133,7 +133,7 @@ h4 {
 
 }
 
-#core h2 {
+h2 {
     font-family: 'Homenaje', sans-serif;
     font-size: 3rem;
     font-weight: 500;
@@ -207,13 +207,14 @@ h4 {
     padding: 4rem 0;
 }
 
-#past h2 {
+h2 {
     color: #000;
     font-family: 'Homenaje', sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
 }
 
 .swiper {
@@ -235,45 +236,77 @@ h4 {
     display: block;
     width: 100%;
 }
-
-#social {
+#brochure {
+    background-color: #BBD7FF;
     width: 100%;
     padding: 4rem 2rem;
-    background: #BBD7FF;
     text-align: center;
 }
-
-#social h2 {
-    color: #000;
-    font-family: 'Homenaje',sans-serif;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-#social .posts{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 4rem 0;
-}
-#social .post{
-    filter: drop-shadow(10px 10px 10px #000);
-    transition: ease 0.3s;
-}
-#social .post:hover{
-    scale: 1.05;
-}
-#social .bottom{
+#brochure .btn{
+    padding: 5rem 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#social .bottom .icons{
+#brochure a{
+    text-decoration: none !important ;
+}
+#brochure button{
+    width: 25vw;
+    height: 4rem;
+    border-radius: 40px;
+    display: flex;
+    border: none;
+    filter: drop-shadow(5px 5px 5px #000);
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.3rem;
+    font-family: 'Poppins', serif;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.2s;
+}
+#brochure button:hover{
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+#social {
+    width: 100%;
+    padding: 4rem 2rem;
+    background: #FF8A8A;
+    text-align: center;
+}
+
+#social .posts {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+
+#social .post {
+    filter: drop-shadow(10px 10px 10px #000);
+    transition: ease 0.3s;
+}
+
+#social .post:hover {
+    scale: 1.05;
+}
+
+#social .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social .bottom .icons {
     padding: 2rem 0;
     display: flex;
     gap: 3rem;
 }
-#social .bottom .icons a{
+
+#social .bottom .icons a {
     text-decoration: none;
     color: #000;
     font-size: 3rem;
