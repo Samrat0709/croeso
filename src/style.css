@@ -216,7 +216,9 @@ h2 {
     line-height: normal;
     text-align: center;
 }
-
+.swiper-wrapper{
+    margin: 4rem 0;
+}
 .swiper {
     width: 100%;
     padding-top: 50px;
