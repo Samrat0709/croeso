@@ -253,8 +253,9 @@ h2 {
     text-decoration: none !important ;
 }
 #brochure button{
-    width: 25vw;
+    width: 35vw;
     height: 4rem;
+    padding: 1rem;
     border-radius: 40px;
     display: flex;
     border: none;
